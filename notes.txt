@@ -1,0 +1,12 @@
+file .gitignore
+open editor and create new file with contents:
+
+*.pyc
+*~
+__pycache__
+myvenv
+db.sqlite3
+/static
+.DS_Store
+
+These will not be added to the repository.  PythonAnywhere uses a different database, MySQL which can handle more visitors.
